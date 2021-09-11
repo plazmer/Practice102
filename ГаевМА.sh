@@ -1,5 +1,5 @@
 #!/bin/bash/
-touch GaevMA.txt
+touch ГаевМА.txt
 date +%A
 file /bin/bash
 wget http://3.remzalp.ru/alice.txt
