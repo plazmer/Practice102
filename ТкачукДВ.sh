@@ -6,9 +6,10 @@ curl -o alice.txt http://3.remzalp.ru/alice.txt
 wc -w alice.txt
 head --lines=19 alice.txt
 tail --lines=17 alice.txt
-!!
+!-1
 cat alice.txt | grep h2
 cat alice.txt | grep h2 | grep -oP '2>\K.*?(?=</)'
+for i in {1..40}; do mkdir test$i; done
 mkdir test{1..40}
 rm -r *3 *7
 ls > test.txt
