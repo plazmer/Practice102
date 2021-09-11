@@ -1,5 +1,4 @@
 #!/bin/bash
-set -H
 cd ~/
 touch РедькинДН.txt
 date +%a
